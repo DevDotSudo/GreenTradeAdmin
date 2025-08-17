@@ -52,7 +52,6 @@ require_once __DIR__ . '/includes/header.php';
 				</tr>
 			</thead>
 			<tbody id="ordersTableBody">
-				<!-- Orders will be loaded here dynamically -->
 			</tbody>
 		</table>
 		<div id="noOrders" class="no-data" style="display: none;">

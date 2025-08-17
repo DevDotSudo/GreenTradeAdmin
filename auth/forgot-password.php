@@ -13,24 +13,24 @@ require_once __DIR__ . '/../includes/header.php';
 			Green Trade Admin
 		</div>
 		<div class="subtitle">Password Recovery</div>
-		
+
 		<div class="email-icon">
 			<i class="fas fa-envelope"></i>
 		</div>
-		
+
 		<div class="description">
 			Enter your email address and we'll send you a link to reset your password.
 		</div>
-		
+
 		<div class="error-message" id="errorMessage"></div>
 		<div class="success-message" id="successMessage"></div>
-		
+
 		<form id="forgotForm">
 			<div class="form-group">
 				<label for="email">Email Address</label>
 				<input type="email" id="email" name="email" required>
 			</div>
-			
+
 			<button type="submit" class="reset-btn">
 				<span class="loading" id="loading">
 					<i class="fas fa-spinner"></i> Sending...
@@ -38,7 +38,7 @@ require_once __DIR__ . '/../includes/header.php';
 				<span class="normal" id="normalText">Send Reset Link</span>
 			</button>
 		</form>
-		
+
 		<div style="margin-top: 20px;">
 			<a href="login.php" class="back-link">Back to Login</a>
 		</div>

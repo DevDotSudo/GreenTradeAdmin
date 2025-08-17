@@ -13,21 +13,21 @@ require_once __DIR__ . '/../includes/header.php';
 			Green Trade Admin
 		</div>
 		<div class="subtitle">Administrator Access Portal</div>
-		
+
 		<div class="error-message" id="errorMessage"></div>
 		<div class="success-message" id="successMessage"></div>
-		
+
 		<form id="loginForm">
 			<div class="form-group">
 				<label for="email">Email Address</label>
 				<input type="email" id="email" name="email" required>
 			</div>
-			
+
 			<div class="form-group">
 				<label for="password">Password</label>
 				<input type="password" id="password" name="password" required>
 			</div>
-			
+
 			<button type="submit" class="login-btn">
 				<span class="loading" id="loading">
 					<i class="fas fa-spinner"></i> Logging in...
@@ -35,11 +35,11 @@ require_once __DIR__ . '/../includes/header.php';
 				<span class="normal" id="normalText">Login</span>
 			</button>
 		</form>
-		
+
 		<div style="margin-top: 20px;">
 			<a href="register.php" class="register-link">Don't have an account? Register here</a>
 		</div>
-		
+
 		<div style="margin-top: 15px;">
 			<a href="forgot-password.php" class="register-link">Forgot Password?</a>
 		</div>

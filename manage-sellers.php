@@ -38,7 +38,6 @@ require_once __DIR__ . '/includes/header.php';
 				</tr>
 			</thead>
 			<tbody id="sellersTableBody">
-				<!-- Sellers will be loaded here dynamically -->
 			</tbody>
 		</table>
 		<div id="noSellers" class="no-data" style="display: none;">
@@ -47,7 +46,6 @@ require_once __DIR__ . '/includes/header.php';
 	</div>
 </div>
 
-<!-- View Seller Modal -->
 <div id="viewSellerModal" class="modal">
 	<div class="modal-content">
 		<div class="modal-header">
@@ -55,7 +53,6 @@ require_once __DIR__ . '/includes/header.php';
 			<span class="close" onclick="closeViewSellerModal()">&times;</span>
 		</div>
 		<div class="modal-body" id="viewSellerContent">
-			<!-- Seller details will be loaded here -->
 		</div>
 		<div class="modal-footer">
 			<button class="btn-secondary" onclick="closeViewSellerModal()">Close</button>
